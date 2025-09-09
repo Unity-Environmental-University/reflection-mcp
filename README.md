@@ -1,3 +1,4 @@
+
 # Reflection MCP Server
 
 > Part of the LXD MCP Suite — a cohesive set of MCP servers for learning experience design (coaching, Kanban, stories, and optional LLM adapters).
@@ -88,3 +89,5 @@ journalctl --user -u reflection-mcp.service -f
 ## License
 
 Proprietary/internal by default. Add a license if open-sourcing.
+
+> Internal Use Only — not licensed for external distribution or hosting.
