@@ -1,5 +1,13 @@
 # Reflection MCP Server
 
+> Part of the LXD MCP Suite — a cohesive set of MCP servers for learning experience design (coaching, Kanban, stories, and optional LLM adapters).
+
+## What it is
+Lightweight reflection MCP server (stdio) that detects available providers and stores short local memories.
+
+## Why it helps
+Optional tailoring/validation for other servers; stays small and safe. Works fully offline with local memory only.
+
 Lightweight reflection and differential diagnosis MCP server.
 
 - Detects provider from environment/.env (OpenAI, Anthropic, Gemini, Ollama) and uses a lightweight local model if no network provider is available.
