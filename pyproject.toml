@@ -1,0 +1,10 @@
+[project]
+name = "reflection-mcp"
+version = "0.1.0"
+description = "Lightweight reflection MCP server with local memory fallback"
+requires-python = ">=3.9"
+readme = "README.md"
+authors = [{name="Your Team"}]
+
+[project.scripts]
+reflection-mcp = "reflection_mcp.mcp_server:main"
